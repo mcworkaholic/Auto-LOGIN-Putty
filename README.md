@@ -80,7 +80,7 @@ If you haven't already done so :
 
 3.  Open "my-project-folder" in PyCharm
    
-4.  Go to the "tools" tab in PyCharm, click "sync python requirements" and specify the path to Auto-LOGIN-Putty/requirements.txt, click install
+4.  Go to the "Tools" tab in PyCharm, click "sync python requirements" and specify the path to Auto-LOGIN-Putty/requirements.txt, click install
 
 5.  Follow instructions in "main.py"
 
