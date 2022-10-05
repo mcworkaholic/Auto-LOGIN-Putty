@@ -6,7 +6,7 @@ def login():
     # make your own .env file, copy the contents from "sample.env",
     # paste into .env,
     # change the values in your new .env file to your actual values
-    # define path to .env file and change path below in line #11
+    # change path below in line #11
 
     load_dotenv(dotenv_path="C:\\Path\\to\\.env")
 
