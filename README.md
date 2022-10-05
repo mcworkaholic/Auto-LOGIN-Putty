@@ -75,13 +75,14 @@ If you haven't already done so :
    cd my-project-folder 
    git clone https://github.com/mcworkaholic/Auto-LOGIN-Putty.git
    ```
-2.  Open "my-project-folder" in PyCharm
 
+2.  Change credentials in "sample.env" then rename it to just ".env"
+
+3.  Open "my-project-folder" in PyCharm
    
-3.  Go to the "tools" tab in PyCharm, click "sync python requirements" and specify the path to Auto-LOGIN-Putty/requirements.txt, click install
+4.  Go to the "tools" tab in PyCharm, click "sync python requirements" and specify the path to Auto-LOGIN-Putty/requirements.txt, click install
     
-
-4.  Run
+5.  Run
 
 <!-- CONTRIBUTING -->
 ## Contributing
