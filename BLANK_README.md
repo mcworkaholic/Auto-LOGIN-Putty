@@ -37,7 +37,7 @@
 <h3 align="center">Auto-LOGIN-Putty</h3>
 
   <p align="center">
-    a simple tool that automates logging in with putty via python and pywinauto
+    a simple tool for Windows that automates logging in with putty via python and pywinauto
     <br />
     <br />
     <a href="https://github.com/mcworkaholic/Auto-LOGIN-Putty/issues">Report Bug</a>
@@ -45,7 +45,7 @@
     <a href="https://github.com/mcworkaholic/Auto-LOGIN-Putty/issues">Request Feature</a>
   </p>
 </div>
-
+<br />
 <div align="center">
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
