@@ -66,6 +66,8 @@ If you haven't already done so :
 
 * Install and configure PyCharm
   <p><a href="https://www.liquidweb.com/kb/how-to-install-and-configure-pycharm-on-windows/">https://www.liquidweb.com/kb/how-to-install-and-configure-pycharm-on-windows/</a></p>
+
+
 ### Installation
 
 1.  Clone the repo
