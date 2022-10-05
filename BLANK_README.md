@@ -34,7 +34,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Auto-LOGIN-Putty</h3>
 
   <p align="center">
     project_description
@@ -85,7 +85,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `mcworkaholic`, `Auto-LOGIN-Putty`, `twitter_handle`, `weston-evans`, `email_client`, `wevans302@gmail.com`, `project_title`, `project_description`
+Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `mcworkaholic`, `Auto-LOGIN-Putty`, `twitter_handle`, `weston-evans`, `email_client`, `wevans302@gmail.com`, `Auto-LOGIN-Putty`, `project_description`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -114,11 +114,13 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-If you haven't already done so: 
+If you haven't already done so : 
 * Install Python
-  <p>(<a href="https://realpython.com/installing-python/">https://realpython.com/installing-python/</a>)</p>
+  <p><a href="https://realpython.com/installing-python/">https://realpython.com/installing-python/</a></p>
 * Install PIP
-<p>(<a href="https://www.makeuseof.com/tag/install-pip-for-python/">https://www.makeuseof.com/tag/install-pip-for-python/</a>)</p>
+  <p><a href="https://www.makeuseof.com/tag/install-pip-for-python/">https://www.makeuseof.com/tag/install-pip-for-python/</a></p>
+* Set up your virtual environment
+  <p><a href="https://mothergeo-py.readthedocs.io/en/latest/development/how-to/venv-win.html">https://mothergeo-py.readthedocs.io/en/latest/development/how-to/venv-win.html</a></p>
 
 ### Installation
 
@@ -126,13 +128,18 @@ If you haven't already done so:
    ```sh
    git clone https://github.com/mcworkaholic/Auto-LOGIN-Putty.git
    ```
-2. Install NPM packages
+2. Create a virtual python environment
    ```sh
-   npm install
+   cd my-project-folder 
+   virtualenv --python C:\\Path\\To\\Python\\python.exe venv
    ```
-3. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+3. Activate the environment
+   ```sh
+   .\\venv\\Scripts\\activate
+   ```
+4. Install Dependencies
+   ```sh
+   pip install -r requirements.txt
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
