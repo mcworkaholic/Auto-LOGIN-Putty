@@ -24,7 +24,7 @@ app = Application().start(cmd_line=u"putty -ssh " f"{user_name}@{ip_address} -P 
 putty = app.PuTTY
 
 def autoReset():
-    df = pd.read_excel("C:\\Users\\Weston\\Desktop\\BCRLauto_reset\\userReset.xlsx") 
+    df = pd.read_excel("C:\\path\\to\\user-reset.xlsx") 
     user_list = df['username'].tolist()
     putty.type_keys("sudo" + sp + "passwd " + sp + str(user_list[0]))
     putty.type_keys(e)
