@@ -124,22 +124,32 @@ If you haven't already done so :
 
 ### Installation
 
-1. Clone the repo
-   ```sh
-   git clone https://github.com/mcworkaholic/Auto-LOGIN-Putty.git
-   ```
-2. Create a virtual python environment
+1.  Clone the repo
    ```sh
    cd my-project-folder 
-   virtualenv --python C:\\Path\\To\\Python\\python.exe venv
+   git clone https://github.com/mcworkaholic/Auto-LOGIN-Putty.git
    ```
-3. Activate the environment
+2.  Create a virtual python environment
    ```sh
-   .\\venv\\Scripts\\activate
+   virtualenv --python C:\Path\To\Python\python.exe venv
    ```
-4. Install Dependencies
+3.  Activate the environment
+   ```sh
+   .\venv\Scripts\activate
+   ```
+4.  Install Dependencies
    ```sh
    pip install -r requirements.txt
+   ```
+5.  Create .env file
+   ```sh
+   cat > .env
+   ```
+6.  Copy contents of sample.env to newly created file and change credentials
+
+7.  Back in your terminal type :
+   ```sh
+   python main.py
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
