@@ -30,20 +30,14 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/mcworkaholic/Auto-LOGIN-Putty">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
+  <a href="https://github.com/mcworkaholic/Auto-LOGIN-Putty"></a>
 
 <h3 align="center">Auto-LOGIN-Putty</h3>
 
   <p align="center">
     project_description
     <br />
-    <a href="https://github.com/mcworkaholic/Auto-LOGIN-Putty"><strong>Explore the docs »</strong></a>
     <br />
-    <br />
-    <a href="https://github.com/mcworkaholic/Auto-LOGIN-Putty">View Demo</a>
-    ·
     <a href="https://github.com/mcworkaholic/Auto-LOGIN-Putty/issues">Report Bug</a>
     ·
     <a href="https://github.com/mcworkaholic/Auto-LOGIN-Putty/issues">Request Feature</a>
@@ -108,9 +102,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 <!-- GETTING STARTED -->
 ## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these steps.
 
 ### Prerequisites
 
@@ -141,44 +133,20 @@ If you haven't already done so :
    ```sh
    pip install -r requirements.txt
    ```
-5.  Create .env file
+5.  Create .env file and close terminal
    ```sh
    cat > .env
    ```
+
 6.  Copy contents of sample.env to newly created file and change credentials
 
-7.  Back in your terminal type :
+
+7.  CD back into your project directory Back and type :
    ```sh
    python main.py
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/mcworkaholic/Auto-LOGIN-Putty/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- CONTRIBUTING -->
