@@ -64,7 +64,7 @@ If you haven't already done so :
 * Install Python
   <p><a href="https://realpython.com/installing-python/">https://realpython.com/installing-python/</a></p>
 * Install & configure Pycharm
-  <p><a href="https://www.liquidweb.com/kb/how-to-install-and-configure-pycharm-on-windows/</a></p>
+  <p><a href="https://www.liquidweb.com/kb/how-to-install-and-configure-pycharm-on-windows/</a>https://www.liquidweb.com/kb/how-to-install-and-configure-pycharm-on-windows/</p>
 
 ### Installation
 
