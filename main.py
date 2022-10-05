@@ -1,6 +1,7 @@
 from pywinauto.application import Application
 import os
 import time
+import pandas as pd
 from dotenv import load_dotenv
 
 # make your own .env file, copy the contents from "sample.env",
@@ -22,6 +23,10 @@ e = "{ENTER}"
 
 app = Application().start(cmd_line=u"putty -ssh " f"{user_name}@{ip_address} -P {port}")
 putty = app.PuTTY
+
+# resets and forces the expiration of user's password
+# users are defined within "user-reset.xlsx" with a temporary password of "temp_password" defined in the .env 
+# that pre-defined password will have to be used and changed upon the user's next login
 
 def autoReset():
     df = pd.read_excel("C:\\path\\to\\user-reset.xlsx") 
