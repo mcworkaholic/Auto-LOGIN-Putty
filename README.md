@@ -82,7 +82,7 @@ If you haven't already done so :
    
 4.  Go to the "Tools" tab in PyCharm, click "sync python requirements" and specify the path to Auto-LOGIN-Putty/requirements.txt, click install 
     
-    OR in PyCharm's terminal
+    Or, in PyCharm's terminal
     
     ```sh
     pip install -r requirements.txt 
