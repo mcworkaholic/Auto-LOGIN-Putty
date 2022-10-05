@@ -1,5 +1,6 @@
 from pywinauto.application import Application
 import os
+import time
 from dotenv import load_dotenv
 
 # make your own .env file, copy the contents from "sample.env",
@@ -12,13 +13,44 @@ load_dotenv(dotenv_path="C:\\Path\\to\\.env")
 # Setting variables defined in .env
 ip_address = os.getenv("IP_ADDRESS")
 sudo_password = os.getenv("SUDO_PASSWORD")
+temp_password = os.getenv("TEMP_PASSWORD")
 user_name = os.getenv("USER_NAME")
 port = os.getenv("PORT")
-    
+
+sp = "{SPACE}"
+e = "{ENTER}"
+
+app = Application().start(cmd_line=u"putty -ssh " f"{user_name}@{ip_address} -P {port}")
+putty = app.PuTTY
+
+def autoReset():
+    df = pd.read_excel("C:\\Users\\Weston\\Desktop\\BCRLauto_reset\\userReset.xlsx") 
+    user_list = df['username'].tolist()
+    putty.type_keys("sudo" + sp + "passwd " + sp + str(user_list[0]))
+    putty.type_keys(e)
+    putty.type_keys(sudo_password)
+    putty.type_keys(e)
+    putty.type_keys(temp_password)
+    putty.type_keys(e)
+    putty.type_keys(temp_password)
+    putty.type_keys(e)
+    time.sleep(.2)
+    putty.type_keys("sudo" + sp + "passwd" + sp + "-e" + sp + str(user_list[0]))
+    putty.type_keys(e)
+
+    for i in user_list[1:]:
+        putty.type_keys("sudo" + sp + "passwd " + sp + str(i))
+        putty.type_keys(e)
+        putty.type_keys(temp_password)
+        putty.type_keys(e)
+        putty.type_keys(temp_password)
+        putty.type_keys(e)
+        time.sleep(.2)
+        putty.type_keys("sudo" + sp + "passwd" + sp + "-e" + sp + str(i))
+        putty.type_keys(e) 
+
 def login():
     # Initial login
-    app = Application().start(cmd_line=u"putty -ssh " f"{user_name}@{ip_address} -P {port}")
-    putty = app.PuTTY
     putty.wait('ready')
     putty.type_keys(sudo_password)
     putty.type_keys("{ENTER}")
