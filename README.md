@@ -37,7 +37,7 @@
 <h3 align="center">Auto-LOGIN-Putty</h3>
 <br />
   <p align="center">
-    a simple tool for Windows that automates logging in with putty via python and pywinauto
+    a tool for Windows that automates logging in, resetting user passwords, and bulk deleting users with putty via python and pywinauto
     <br />
     <br />
     <a href="https://github.com/mcworkaholic/Auto-LOGIN-Putty/issues">Report Bug</a>
