@@ -87,14 +87,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+* [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -138,10 +131,10 @@ If you haven't already done so :
    cat > .env
    ```
 
-6.  Copy contents of sample.env to newly created file and change credentials
+6.  Copy contents of sample.env to newly created file and change your credentials within it
 
 
-7.  CD back into your project directory Back and type :
+7.  CD back into your project directory and type :
    ```sh
    python main.py
    ```
@@ -190,9 +183,7 @@ Project Link: [https://github.com/mcworkaholic/Auto-LOGIN-Putty](https://github.
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* [https://github.com/othneildrew/Best-README-Template](https://github.com/othneildrew/Best-README-Template)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
