@@ -63,10 +63,8 @@ To get a local copy up and running follow these steps.
 If you haven't already done so : 
 * Install Python
   <p><a href="https://realpython.com/installing-python/">https://realpython.com/installing-python/</a></p>
-* Install PIP
-  <p><a href="https://www.makeuseof.com/tag/install-pip-for-python/">https://www.makeuseof.com/tag/install-pip-for-python/</a></p>
-* Set up your virtual environment
-  <p><a href="https://mothergeo-py.readthedocs.io/en/latest/development/how-to/venv-win.html">https://mothergeo-py.readthedocs.io/en/latest/development/how-to/venv-win.html</a></p>
+* Install & configure Pycharm
+  <p><a href="https://www.liquidweb.com/kb/how-to-install-and-configure-pycharm-on-windows/</a></p>
 
 ### Installation
 
@@ -75,30 +73,11 @@ If you haven't already done so :
    cd my-project-folder 
    git clone https://github.com/mcworkaholic/Auto-LOGIN-Putty.git
    ```
-2.  Create a virtual python environment
-   ```sh
-   virtualenv --python C:\Path\To\Python\python.exe venv
-   ```
-3.  Activate the environment
-   ```sh
-   .\venv\Scripts\activate
-   ```
-4.  Install Dependencies
-   ```sh
-   pip install -r requirements.txt
-   ```
-5.  Create .env file and close terminal
-   ```sh
-   cat > .env
-   ```
-
-6.  Copy contents of sample.env to newly created file and change your credentials within it
-
-
-7.  CD back into your project directory and type :
-   ```sh
-   python main.py
-   ```
+2.  Open "my-project-folder" in PyCharm
+   
+3.  Go to the tools tab in PyCharm, click "sync python requirements" and specify the path to Auto-LOGIN-Putty/requirements.txt, click install
+  
+4.  Run
 
 <!-- CONTRIBUTING -->
 ## Contributing
