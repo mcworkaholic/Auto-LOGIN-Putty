@@ -2,20 +2,20 @@ from pywinauto.application import Application
 import os
 from dotenv import load_dotenv
 
+# make your own .env file, copy the contents from "sample.env",
+# paste into .env,
+# change the values in your new .env file to your actual values
+# change path below in line #10
+
+load_dotenv(dotenv_path="C:\\Path\\to\\.env")
+
+# Setting variables defined in .env
+ip_address = os.getenv("IP_ADDRESS")
+sudo_password = os.getenv("SUDO_PASSWORD")
+user_name = os.getenv("USER_NAME")
+port = os.getenv("PORT")
+    
 def login():
-    # make your own .env file, copy the contents from "sample.env",
-    # paste into .env,
-    # change the values in your new .env file to your actual values
-    # change path below in line #11
-
-    load_dotenv(dotenv_path="C:\\Path\\to\\.env")
-
-    # Setting variables defined in .env
-    ip_address = os.getenv("IP_ADDRESS")
-    sudo_password = os.getenv("SUDO_PASSWORD")
-    user_name = os.getenv("USER_NAME")
-    port = os.getenv("PORT")
-
     # Initial login
     app = Application().start(cmd_line=u"putty -ssh " f"{user_name}@{ip_address} -P {port}")
     putty = app.PuTTY
