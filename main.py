@@ -4,8 +4,6 @@ import time
 import pandas as pd
 from dotenv import load_dotenv
 
-# make your own .env file, copy the contents from "sample.env",
-# paste into .env,
 # change the values in your new .env file to your actual values
 # change path below in line #10
 
