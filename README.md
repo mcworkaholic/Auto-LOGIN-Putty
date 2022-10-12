@@ -76,7 +76,7 @@ If you haven't already done so :
    git clone https://github.com/mcworkaholic/Auto-LOGIN-Putty.git
    ```
 
-2.  Change credentials in "sample.env" then rename it to just ".env"
+2.  Change credentials in ".env"
 
 3.  Open "my-project-folder" in PyCharm
    
