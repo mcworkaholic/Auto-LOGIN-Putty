@@ -5,8 +5,6 @@ import pandas as pd
 from dotenv import load_dotenv
 
 # change the values in your new .env file to your actual values
-
-
 load_dotenv(dotenv_path=".\.env")
 
 # Setting variables defined in .env
