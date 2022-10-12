@@ -5,9 +5,9 @@ import pandas as pd
 from dotenv import load_dotenv
 
 # change the values in your new .env file to your actual values
-# change path below in line #10
 
-load_dotenv(dotenv_path="C:\\path\\to\\.env")
+
+load_dotenv(dotenv_path=".\.env")
 
 # Setting variables defined in .env
 ip_address = os.getenv("IP_ADDRESS")
