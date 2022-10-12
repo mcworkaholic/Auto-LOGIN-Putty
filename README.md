@@ -61,6 +61,8 @@ To get a local copy up and running follow these steps.
 ### Prerequisites
 
 If you haven't already done so : 
+* Install Putty
+  <p><a href="https://phoenixnap.com/kb/install-putty-on-windows">https://phoenixnap.com/kb/install-putty-on-windows</a></p>
 * Install Python
   <p><a href="https://realpython.com/installing-python/">https://realpython.com/installing-python/</a></p>
 
@@ -114,20 +116,6 @@ Don't forget to give the project a star! Thanks again!
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Weston Evans - wevans302@gmail.com 
-
-Project Link: [https://github.com/mcworkaholic/Auto-LOGIN-Putty](https://github.com/mcworkaholic/Auto-LOGIN-Putty)
-
-
-
 
 
 <!-- ACKNOWLEDGMENTS -->
